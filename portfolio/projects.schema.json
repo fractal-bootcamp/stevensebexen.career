@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Projects schema",
+  "type": "object",
+  "properties": {
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The project name."
+          },
+          "folder": {
+            "type": "string",
+            "description": "The name of the folder in my /Projects folder."
+          },
+          "description": {
+            "type": "string",
+            "description": "A short description of the project."
+          },
+          "rating": {
+            "type": "integer",
+            "description": "A subjective rating from 0 to 10.",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "ratingDescription": {
+            "type": "string",
+            "description": "A justification for the rating."
+          },
+          "status": {
+            "type": "string",
+            "description": "The status of the project. Is it complete, incomplete, deployed, lacking polish, etc."
+          }
+        },
+        "required": ["name", "folder", "description", "rating", "ratingDescription", "status"]
+      }
+    }
+  }
+}
