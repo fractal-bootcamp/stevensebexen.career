@@ -95,7 +95,7 @@
       "description": "Bullet hell prototype hooked into AI for Infinite Games Hackathon.",
       "rating": 7,
       "ratingDescription": "It's a bit ugly, and the use of AI feels more like a gimmick than a well-integrated piece of a product. Let's bury this slightly on the list.",
-      "status": "Ugly, but ready to be deployed. Needs updated fallback data (since I'll be deploying without live API connection."
+      "status": "Ugly, but ready to be deployed. Needs updated fallback data (since I'll be deploying without live API connection)."
     }
   ]
 }
