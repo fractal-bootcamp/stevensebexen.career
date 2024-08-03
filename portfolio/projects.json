@@ -1,0 +1,101 @@
+{
+  "$schema": "./projects.schema.json",
+  "projects": [
+    {
+      "name": "Algorithms",
+      "folder": "algorithms-2",
+      "description": "Visualizes algorithms",
+      "rating": 5,
+      "ratingDescription": "Incomplete, ugly, boring. Algorithms that are implemented are pretty simple. Would take a lot to get it more presentable.",
+      "status": "Incomplete"
+    },
+    {
+      "name": "Art site",
+      "folder": "art-site",
+      "description": "Allows users to post pixel art to a feed.",
+      "rating": 6,
+      "ratingDescription": "Super basic.",
+      "status": "Needs modifications to be deployable"
+    },
+    {
+      "name": "Calligraphy mini-app",
+      "folder": "briansteven.miniappcalligraphy",
+      "description": "Seam miniapp letting users post a canvas drawing.",
+      "rating": 6,
+      "ratingDescription": "I only did UI; bonus points for being actually deployed but awkward to discuss.",
+      "status": "Needs to be isolated"
+    },
+    {
+      "name": "Simple chat",
+      "folder": "chat",
+      "description": "A very minimal chat built with native libraries and WebSocket.",
+      "rating": 8,
+      "ratingDescription": "Shows off my interest in low-level systems and simple, lightweight systems with minimal overhead.",
+      "status": "Needs to be deployed and given a nicer UI."
+    },
+    {
+      "name": "Collision detection",
+      "folder": "public-sandbox/collision-detection",
+      "description": "A collision detection environment that allows users to arbitrarily add boxes.",
+      "rating": 7,
+      "ratingDescription": "Simple, but relevant to the field I'm targeting.",
+      "status": "Needs a nicer UI."
+    },
+    {
+      "name": "Sliding block puzzle",
+      "folder": "seam-image-puzzle",
+      "description": "Seam miniapp turning photos into sliding puzzles",
+      "rating": 8,
+      "ratingDescription": "Solid enough. Bonus points for being live on the app store.",
+      "status": "Needs to be isolated and deployed."
+    },
+    {
+      "name": "Simple auth",
+      "folder": "simple-auth",
+      "description": "A minimal auth server",
+      "rating": 7,
+      "ratingDescription": "Similar to simple chat.",
+      "status": "Needs a nicer UI and needs to be deployed."
+    },
+    {
+      "name": "SIN Component library",
+      "folder": "sin-component-library",
+      "description": "A component library that I built 2 things for.",
+      "rating": 6,
+      "ratingDescription": "I did minimal work. Those two components are decent, but it feels a bit lonely.",
+      "status": "Needs to be deployed."
+    },
+    {
+      "name": "Storybook Components",
+      "folder": "storybook",
+      "description": "A component library that I built some more stuff for.",
+      "rating": 7,
+      "ratingDescription": "Pretty clean, solid components.",
+      "status": "Needs to be deployed."
+    },
+    {
+      "name": "Svelte Solitaire",
+      "folder": "svelte-solitaire",
+      "description": "A simple pyramid solitaire implementation in Svelte.",
+      "rating": 8,
+      "ratingDescription": "Pretty nicely polished and relevant to my field.",
+      "status": "Good to go. Only minor tweaks."
+    },
+    {
+      "name": "Tic Tac Toe",
+      "folder": "tictactoe",
+      "description": "Tic Tac Toe with a minimax visualizer.",
+      "rating": 8,
+      "ratingDescription": "Simple concept that also demonstrates understanding of algorithms - good conversation point.",
+      "status": "Good to go. Need to clean up turn-taking logic."
+    },
+    {
+      "name": "We Can Be {}",
+      "folder": "we-can-be",
+      "description": "Bullet hell prototype hooked into AI for Infinite Games Hackathon.",
+      "rating": 7,
+      "ratingDescription": "It's a bit ugly, and the use of AI feels more like a gimmick than a well-integrated piece of a product. Let's bury this slightly on the list.",
+      "status": "Ugly, but ready to be deployed. Needs updated fallback data (since I'll be deploying without live API connection)."
+    }
+  ]
+}
